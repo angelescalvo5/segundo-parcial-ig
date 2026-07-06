@@ -1,6 +1,95 @@
 .contenedor{
 	background-image: url(../img/fondo.png);
+	background-repeat:repeat;
 	display: flex;
+	flex-direction: column;
 	max-width: 100%;
 	justify-content: center;
+}
+.primeraColumna{
+	background-color: powderblue;
+	flex: 1;
+	padding: 1rem;
+	border:1rem solid steelblue;
+	border-radius: 2rem;
+	margin: 2rem;
+	text-align: center;
+}
+.segundaColumna{
+	background-color: powderblue;
+	flex: 1;
+	padding: 1rem;
+	border:1rem solid steelblue;
+	border-radius: 2rem;
+	margin: 2rem;
+	text-align: center;
+}
+.tercerColumna{
+	background-color: powderblue;
+	flex: 1;
+	padding: 1rem;
+	border:1rem solid steelblue;
+	border-radius: 2rem;
+	margin: 2rem;
+	text-align: center;
+}
+h1{
+	font-family:"Able","BJCree","Lato" ;
+}
+header{
+	background-color: paleturquoise;
+	text-align: center;
+	position: relative;
+}
+header img{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 130px;
+}
+aside{
+	max-width: 100%;
+	background-color: lightblue;
+	text-align: center;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display:inline-block;
+	margin:0 1rem;
+}
+main{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+footer{
+	background-color: cadetblue;
+	text-align: center;
+}
+q{
+	font-size: 25px;
+}
+h2{
+	font-family: "Able","BJCree","Lato";
+}
+/*Pagina dos html*/
+.columnaChica{
+	background-color: powderblue;
+	flex: 1;
+	padding: 1rem;
+	border:1rem solid steelblue;
+	border-radius: 2rem;
+	margin: 2rem;
+	text-align: center;
+}
+.columnaGrande{
+	background-color: powderblue;
+	flex: 2;
+	padding: 1rem;
+	border:1rem solid steelblue;
+	border-radius: 2rem;
+	margin: 2rem;
+	text-align: center;
 }
