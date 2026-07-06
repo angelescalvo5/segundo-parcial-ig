@@ -1,0 +1,21 @@
+»»»»» Ejercicio «««««
+
+Armar un sistema para gestionar el repositorio de grabaciones digitales de obras musicales de Laurie Anderson.
+
+Se deberán ingresar los datos de la cantidad de obras se almacenan en el repositorio y, por cada obra, su nombre, la duración en minutos y el peso del archivo en MB. Ingresar también el tiempo estimado de transferencia en milisegundos por cada MB y el costo mensual de almacenamiento por cada MB. 
+
+Se quiere conocer:
+1. la duración total y la duración promedio de todas las obras
+2. la obra de mayor duración y el tiempo de transferencia necesario para descargarla
+3. el presupuesto necesario para mantener funcionando el repositorio durante un año
+
+Una vez que se obtienen los resultados se debe habilitar un botón para reiniciar.
+
+
+»»»»» Tener en cuenta «««««
+
+- Todos los datos deben ser validados.
+- Los datos deben ser ingresados utilizando formularios.
+- Se deben habilitar y deshabilitar las opciones para el ingreso de datos según lo requiera cada momento de ejecución.
+-- Cuando se debe ingresar una cantidad determinada de datos y se cumple esa cantidad, se debe deshabilitar la opción para seguir ingresando.
+-- Las opciones para calcular resultados no se deben habilitar hasta que se haya finalizado la carga de datos necesaria para poder realizar los cálculos. 
