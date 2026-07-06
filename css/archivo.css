@@ -1,0 +1,6 @@
+.contenedor{
+	background-image: url(../img/fondo.png);
+	display: flex;
+	max-width: 100%;
+	justify-content: center;
+}
