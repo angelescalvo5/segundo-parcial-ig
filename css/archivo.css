@@ -73,6 +73,7 @@ q{
 }
 h2{
 	font-family: "Able","BJCree","Lato";
+	text-align: center;
 }
 /*Pagina dos html*/
 .columnaChica{
@@ -92,4 +93,73 @@ h2{
 	border-radius: 2rem;
 	margin: 2rem;
 	text-align: center;
+}
+#obras{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#obras img{
+	width: 10rem;
+	height: 10rem;
+	object-fit: cover;
+}
+section{
+	background-color: skyblue;
+	border: 1rem solid steelblue;
+	padding: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+label{
+	display:block;
+	font-weight:bold;
+}
+input{
+	width: 100%;
+	padding: 0.5 rem;
+	border: 2px solid midnightblue;
+	border-radius:0,5rem;
+}
+input:disabled{
+	background: #f0f0f0;
+	color: #999;
+}
+button{
+	background-color: midnightblue;
+	color: white;
+	border: none;
+	border-radius: 2rem;
+	font-weight: bold;
+}
+.error{
+	color:crimson;
+}
+.titulo{
+	display: flex;
+	background-color:midnightblue;
+	color: white;
+	justify-content: center;
+	border: 0.5rem solid steelblue;
+	border-radius: 2px;
+
+}
+#seccionResultados{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	text-align: center;
+}
+#listaObras{
+	list-style: none;
+	padding: 0.4 rem;
+	border: 1px solid midnightblue;
+}
+a:link{
+	color:midnightblue;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color: red;
 }

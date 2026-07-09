@@ -24,13 +24,62 @@
 	</nav>
 </aside>
 <main>
-	
+	<section>
+	<h2 class="titulo">Repositorio de grabaciones</h2>
+	<img src="img/anderson-2.jpg" height="400px">
+	</section>
+	<section id="seccionCantidad">
+		<h3>1-Cantidad de obras</h3>
+		<form id="cantidadForm">
+			<label>¿Cuántas obras vas a cargar?</label>
+			<input type="number" name="cantidadObras" id="cantidadObras" min="1">
+			<button type="submit" id="confirmar">Confirmar</button>
+			<p class="error" id="errorCantidad"></p>
+		</form>
+	</section>
+	<section id="seccionObras">
+		<h3>2-Cargar obras</h3>
+		<p id="contador">Obra 0 de 0</p>
+		<form id="obraForm">
+			<label>Nombre</label>
+			<input type="text" id="nombre" disabled>
+			<label>Duracion(min)</label>
+			<input type="number" id="duracion" disabled>
+			<label>Peso(mb)</label>
+			<input type="number" id="peso" disabled>
+			<button type="submit" id="agregarObra" disabled>Agregar obra.</button>
+			<p class="error" id="errorObra"></p>
+		</form>
+		<ul id="listaObras"></ul>
+	</section>
+	<section id="seccionDatos">
+		<h3>3-Datos</h3>
+		<form id="datosForm">
+			<label>Tiempo de transferencia(ms por mb)</label>
+			<input type="number" id="tiempoTrans" disabled>
+			<label>Costo mensual(por mb$)</label>
+			<input type="number" id="costo" disabled>
+			<button type="submit" id="confirmarDatos" disabled>Confirmar</button>
+			<p class="error" id="errorDatos"></p>
+		</form>
+	</section>
+	<section id="seccionResultados">
+			<button id="calcular">Calcular resultados</button>
+			<div class="oculto" id="resultados">
+				<p id="total"></p>
+				<p id="promedio"></p>
+				<p id="mayor"></p>
+				<p id="presupuesto"></p>
+				<button id="reiniciar">Reiniciar</button>
+			</div>
+	</section>
+	</main>
 <footer>
-	<q>“El lenguaje es un virus que viene del espacio exterior.” — <strong>Laurie Anderson</strong></q>
+	<q>El lenguaje es un virus que viene del espacio exterior. — <strong>Laurie Anderson</strong></q>
 	<address>
 		<h4>Para contactarse escribir a <a href="mailto:laurie@artedigital.com"> laurie@artedigital.com</a></h4>
 	</address>
 </footer>
-<script src="js/.js"></script>
+<script src="js/ejercicio.js"></script>
 </body>
 </html>
