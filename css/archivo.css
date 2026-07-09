@@ -104,7 +104,7 @@ h2{
 	height: 10rem;
 	object-fit: cover;
 }
-section{
+#bloques{
 	background-color: skyblue;
 	border: 1rem solid steelblue;
 	padding: 1.5rem;
